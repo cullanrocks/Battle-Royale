@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- CSS CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <title>Battle Royale</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <header>
+                    <h1>Select your hereo and fight off the enemies to save the universe!</h1>
+                </header>
+            </div>
+        </div>
+    </div>
+    <!--        BATLLE ZONE -->
+    <div class="container-fluid character-selection">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <h4> Select Your Hero</h4>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="character-list">
+
+                    </div>
+                </div>
+            </div>
+             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                <h4> Enemies To Attack</h4>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div id="enemies">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+    <audio id="audio-click">
+        <source src="assets/audio/click.wav" type="audio/wav">
+    </audio>
+    <audio id="audio-win">
+        <source src="assets/audio/win.wav" type="audio/wav">
+    </audio>
+    <audio id="audio-lose">
+        <source src="assets/audio/lose.wav" type="audio/wav">
+    </audio>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
