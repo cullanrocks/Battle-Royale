@@ -21,9 +21,11 @@ h1, h2, h3{
 
 .character-images {
 	width: 200px;
-	
 }
 
+#attack-button:hover{
+	background-color: #00FF00;
+}
 
 img {
 	width: 250px;
